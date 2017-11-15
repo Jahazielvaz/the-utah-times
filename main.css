@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+
+}
+
+/*font-family: monoton, vt323;*/
+
+#page-container{
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: auto;
+	background: #eee;
+	overflow: hidden;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: orange;
+}
+/* END OF MISC */
+
+
+header{
+	font-family: "Monoton";
+	padding: 10px;
+	border-bottom: .8px solid black;
+}
+
+h1{
+	text-align: center;
+}
+
+header p{
+	font-family: "VT323";
+}
+/* END OF HEADER */
+
+#nav-main{
+	padding-top: 10px 0;
+	border-bottom: .8px solid black;
+	text-align: center;
+}
+
+#nav-main ul li{
+	display: inline-block;
+	width: 100px;
+	padding: 10px 0;
+}
+/* END OF NAV SECTION */
+
+section.section-wrap{
+	margin: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h2{
+	margin: 6px 0;
+	text-align: center;
+}
+
+#parent{
+	column-count: 3;
+	column-rule: 2px solid black;
+	margin: 20px 0;
+}
+
+section.section-wrap article {
+	margin: 5px;
+}
+
+section.section-wrap aside{
+	margin: 5px 0;
+}
+/* END OF SECTION GENERAL */
+
+section#wrap2{
+	overflow: auto;
+}
+
+section#wrap2 img{
+	float: right;
+}
+/* END OF SECTION 2 */
+
+section#ad1{
+	background: url("pics/supplement.jpg") center center no-repeat;
+	background-size: 100%;
+	width: 300px;
+	height: 200px;
+}
+/* END OF SECTION 3 */
+
+section#wrap3 img{
+	float: left;
+	margin: 0 2px;
+}
+
+section#wrap3 article{
+	margin: 2px;
+}
+/* END OF SECTION 4 */
+
+section#wrap5 img{
+	float: left;
+	margin: 0 2px;
+}
+/* END OF SECTION 5 */
+
+section#wrap6{
+
+}
+
+section#wrap6 img.ocean{
+	display: block;
+	margin: auto;
+}
+/* END OF SECTION 6 */
+
+/* FOOTER */
+footer{
+	background: grey;
+	margin: 20px 0;
+	padding: 10px 0;
+	border-bottom: .8px solid black;
+	border-top: .8px solid black;
+	text-align: center;
+}
+
+nav#footer-nav a{
+	color: white;
+}
+
+nav#footer-nav a:hover{
+	color: orange;
+}
+
+nav#footer-nav li{
+	display: inline-block;
+	width: 150px;
+	padding: 10px 0;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
